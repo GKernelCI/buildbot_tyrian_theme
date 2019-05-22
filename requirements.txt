@@ -1,0 +1,2 @@
+buildbot[bundle]
+buildbot_pkg
