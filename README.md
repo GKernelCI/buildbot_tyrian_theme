@@ -6,14 +6,6 @@ _Gentoo Theme for Buildbot_
 
 ## Installation
 
-To install from pip,
-
-```terminal
-pip install buildbot-tyrian-theme
-```
-
--Or-
-
 To install from source,
 
 ```terminal
