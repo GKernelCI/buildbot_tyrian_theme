@@ -1,0 +1,8 @@
+{
+  "name": "buildbot_tyrian_theme",
+  "description": "Gentoo Theme for Buildbot",
+  "version": "0.0.1",
+  "dependencies": {
+    "gentoo-tyrian": "git+https://github.com/gentoo/tyrian.git"
+  }
+}

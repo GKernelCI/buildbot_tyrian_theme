@@ -1,0 +1,11 @@
+.gl-page-with-sidebar .sidebar.sidebar-blue .sidebar-footer, .gl-page-with-sidebar .sidebar.sidebar-blue a:hover, .gl-page-with-sidebar .sidebar.sidebar-blue ul .sidebar-main {
+  background: #54487A;
+}
+
+.gl-page-with-sidebar .sidebar.sidebar-blue {
+  background: #61538D;
+}
+
+.gl-page-with-sidebar .sidebar.sidebar-blue ul .sidebar-title {
+  color: #FFF;
+}
