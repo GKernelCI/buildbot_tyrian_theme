@@ -4,3 +4,4 @@ build
 package-lock.json
 node_modules
 example/*
+buildbot_tyrian_view/VERSION
