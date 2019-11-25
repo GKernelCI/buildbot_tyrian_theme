@@ -9,7 +9,7 @@ _Gentoo Theme for Buildbot_
 To install from source,
 
 ```terminal
-python install -r requirements.txt
+pip install -r requirements.txt
 python setup.py install
 ```
 
