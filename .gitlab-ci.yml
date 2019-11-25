@@ -1,9 +1,17 @@
 include:
   template: Dependency-Scanning.gitlab-ci.yml
 
+image: python:alpine
+
+install:
+  type: test
+  before_script:
+    - python install -r requirements.txt
+  script:
+    - python setup.py install
+
 pypi:
   type: deploy
-  image: python:alpine
   variables:
     TWINE_USERNAME: $TWINE_USERNAME
     TWINE_PASSWORD: $TWINE_PASSWORD
