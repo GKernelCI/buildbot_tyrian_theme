@@ -1,0 +1,16 @@
+include:
+  template: Dependency-Scanning.gitlab-ci.yml
+
+pypi:
+  type: deploy
+  image: python:alpine
+  variables:
+    TWINE_USERNAME: $TWINE_USERNAME
+    TWINE_PASSWORD: $TWINE_PASSWORD
+  before_script:
+    - pip install twine
+    - python setup.py bdist_wheel sdist --formats gztar
+  script:
+    - twine upload dist/*
+  only:
+    - tags
