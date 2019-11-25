@@ -1,17 +1,19 @@
 include:
   template: Dependency-Scanning.gitlab-ci.yml
 
-image: python:alpine
+image: docker:latest
+
+services:
+  - docker:dind
 
 install:
   type: test
-  before_script:
-    - pip install -r requirements.txt
   script:
-    - python setup.py install
+    - docker build -t buildbot_tyrian_theme .
 
 pypi:
   type: deploy
+  image: python:alpine
   variables:
     TWINE_USERNAME: $TWINE_USERNAME
     TWINE_PASSWORD: $TWINE_PASSWORD
