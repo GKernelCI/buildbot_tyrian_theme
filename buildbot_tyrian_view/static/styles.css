@@ -1,7 +1,10 @@
 @import url("https://assets.gentoo.org/tyrian/bootstrap.min.css");
 @import url("https://assets.gentoo.org/tyrian/tyrian.min.css");
 
-.gl-page-with-sidebar .sidebar.sidebar-blue .sidebar-footer, .gl-page-with-sidebar .sidebar.sidebar-blue a:hover, .gl-page-with-sidebar .sidebar.sidebar-blue ul .sidebar-main {
+.gl-page-with-sidebar .sidebar.sidebar-blue .sidebar-footer,
+.gl-page-with-sidebar .sidebar.sidebar-blue a:hover, 
+.gl-page-with-sidebar .sidebar.sidebar-blue ul .sidebar-main,
+.breadcrumb {
   background: #54487A;
 }
 
