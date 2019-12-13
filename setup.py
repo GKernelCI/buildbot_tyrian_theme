@@ -32,5 +32,6 @@ setup_www_plugin(
     entry_points="""
         [buildbot.www]
         tyrian_view = buildbot_tyrian_view:ep
-    """
+    """,
+    zip_safe = True
 )
