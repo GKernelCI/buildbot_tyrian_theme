@@ -3,6 +3,6 @@
   "description": "Gentoo Theme for Buildbot",
   "version": "0.0.1",
   "dependencies": {
-    "gentoo-tyrian": "git+https://github.com/gentoo/tyrian.git"
+    "gentoo-tyrian": "git+https://anongit.gentoo.org/git/sites/tyrian-theme.git"
   }
 }
