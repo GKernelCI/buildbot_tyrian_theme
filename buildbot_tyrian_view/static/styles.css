@@ -12,3 +12,7 @@
 .gl-page-with-sidebar .sidebar.sidebar-blue ul .sidebar-title {
   color: #FFF;
 }
+
+.navbar {
+    border-radius: 0;
+}
