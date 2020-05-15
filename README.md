@@ -4,6 +4,12 @@ _Gentoo Theme for Buildbot_
 
 [![GPL-3.0-or-later License][license-badge]](COPYING)
 
+## Screenshot
+
+![Screenshot](tyrian_buildbot.png)
+
+Courtesy of <https://kernel-ci.emjay-embedded.co.uk>.
+
 ## Installation
 
 To install from source,
