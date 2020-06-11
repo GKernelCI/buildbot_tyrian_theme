@@ -1,6 +1,6 @@
 # Tyrian for Buildbot
 
-_Gentoo Theme for Buildbot_
+_Gentoo Theme for Buildbot._
 
 ## Installation
 
@@ -28,7 +28,7 @@ c['www'] = dict(port=8010,
 
 ### Example
 
-An example configuration has been provided, (See: [`example/master.cfg`](example/master.cfg)).
+An example configuration has been provided, (See: [`doc/example/master.cfg`](doc/example/master.cfg)).
 
 To view the example,
 
@@ -40,7 +40,7 @@ buildbot start
 
 ### Screenshot
 
-![Screenshot](tyrian_buildbot.png)
+![Screenshot](doc/theme/img/tyrian_buildbot.png)
 
 Courtesy of <https://kernel-ci.emjay-embedded.co.uk>.
 
